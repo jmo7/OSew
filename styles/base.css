@@ -1,0 +1,89 @@
+@font-face 
+{
+    font-family: "JosefinSlab-Thin";
+    src: url('../fonts/JosefinSlab-Thin.ttf');
+}
+@font-face
+{
+    font-family: "JosefinSlab-ThinItalic";
+    src: url('../fonts/JosefinSlab-ThinItalic.ttf');
+}
+@font-face
+{
+    font-family:"JosefinSlab-Light";
+    src: url('../fonts/JosefinSlab-Light.ttf');
+}
+@font-face
+{
+    font-family:"JosefinSlab-LightItalic";
+    src: url('../fonts/JosefinSlab-LightItalic.ttf');
+}
+@font-face
+{
+    font-family:"JosefinSlab-Regular";
+    src: url('../fonts/JosefinSlab-Regular.ttf');
+}
+@font-face
+{
+    font-family:"JosefinSlab-Italic";
+    src: url('../fonts/JosefinSlab-Italic.ttf');
+}
+@font-face
+{
+    font-family:"JosefinSlab-SemiBold";
+    src: url('../fonts/JosefinSlab-SemiBold.ttf');
+}
+@font-face
+{
+    font-family:JosefinSlab-SemiBoldItalic;
+    src: url('../fonts/JosefinSlab-SemiBoldItalic.ttf');
+}
+@font-face
+{
+    font-family:JosefinSlab-Bold;
+    src: url('../fonts/JosefinSlab-Bold.ttf');
+}
+@font-face
+{
+    font-family:JosefinSlab-BoldItalic;
+    src: url('../fonts/JosefinSlab-BoldItalic.ttf');
+}
+
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+
+body {
+    position:relative;
+    min-height:100%;
+    outline:1px red solid;
+}
+
+#home_screen .menu {
+    list-style-type:none;
+    height:100%;
+    outline:1px blue solid;
+    
+}    
+    
+#home_screen .menu li {
+    outline:1px green dotted;
+    min-height:33%;
+    padding:50px 100px;
+    font: 80px "JosefinSlab-LightItalic";
+}
+
+.sew {
+   background-color:#f8f8c6;   
+}
+.embroider  {
+   background-color:#a5cea5;   
+} 
+.quilt  {
+   background-color:#b0b7d8;   
+}
